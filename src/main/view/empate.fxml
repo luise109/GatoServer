@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="208.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.ControllerEmpate">
+   <children>
+      <Label accessibleRole="BUTTON" layoutX="23.0" layoutY="66.0" prefHeight="76.0" prefWidth="303.0" text="Empate!!" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="60.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.9423076923076923" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007407407407407408">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007407407407407408">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.0074074074074076185">
+                     <color>
+                        <Color red="0.9300000071525574" green="0.00930000003427267" blue="0.00930000003427267" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.00930000003427267" green="0.010380634106695652" blue="0.9300000071525574" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="140.0" layoutY="170.0" mnemonicParsing="false" onAction="#cerrar" text="Aceptar" />
+   </children>
+</AnchorPane>
